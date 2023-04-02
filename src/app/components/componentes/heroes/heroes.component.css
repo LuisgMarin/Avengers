@@ -1,0 +1,16 @@
+.container {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.card {
+  width: 280px;
+  margin: 10px;
+  background-color: #202020;
+
+}
+
+.titulo {
+  color: white;
+  text-align: center;
+}

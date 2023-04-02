@@ -12,6 +12,10 @@ import { HistoriaComponent } from './components/componentes/historia/historia.co
 import { FooterComponent } from './components/componentes/footer/footer.component';
 import { NavbarComponent } from './components/componentes/navbar/navbar.component';
 
+//Servicio Data
+import { HeroeService } from './heroe-service';
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,7 +31,7 @@ import { NavbarComponent } from './components/componentes/navbar/navbar.componen
     AppRoutingModule,
     APP_ROUTING
   ],
-  providers: [],
+  providers: [HeroeService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
