@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { APP_ROUTING } from './app.routes';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -29,6 +29,7 @@ import { HeroeService } from './heroe-service';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    FormsModule, ReactiveFormsModule,
     APP_ROUTING
   ],
   providers: [HeroeService],
